@@ -28,7 +28,7 @@
   src: url(assets\fonts\Poppins-ExtraLight.ttf);
 }
 
-.body{
+.body {
   $primary: #d69a2e;
 }
 
@@ -118,23 +118,20 @@
   transform: rotate(-135deg);
 }
 
-.call p{
+.call p {
   color: #d69a2e;
 }
 
-.call span{
+.call span {
   color: #fff;
 }
-
-
 
 /* Banner Section */
 .banner {
   position: relative;
-  height: 100vw;
 }
 
-.banner-img{
+.banner-img {
   width: 100%;
 }
 
@@ -148,7 +145,7 @@
   display: block;
 }
 
-.mid-part{
+.mid-part {
   position: relative;
   right: 25rem;
   font-family: "Poppins";
@@ -160,16 +157,66 @@
   line-height: 3rem;
 }
 
-.family{
+.family {
   line-height: 7rem;
   font-family: "poppins";
   font-weight: 200;
 }
 
-#k{
-font-family: "poppins";
-font-weight: 700;}
+#k {
+  font-family: "poppins";
+  font-weight: 700;
+}
 
-.family span{
-  font-weight:200;
+.family span {
+  font-weight: 200;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading-text {
+  padding: 3rem 6rem;
+}
+
+.heading-text p {
+  font-family: "muli";
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.heading-text span {
+  font-family: "muli";
+  font-size: 5rem;
+  font-weight: 200;
+}
+
+.about-second {
+  flex-grow: 4;
+}
+
+.about-img {
+  width: 50rem;
+  height: 30rem;
+  padding: 2rem;
+  padding-right: 10rem;
+}
+
+.read-more {
+  font-family: "poppins";
+  font-weight: 500;
+  padding-top: 4rem;
+  font-size: 1rem;
+}
+
+.rmb {
+  display: inline-block;
+  background-color: #d69a2e;
+  height: 3.25rem;
+  width: 14rem;
+  border: white;
+  color: white;
 }
