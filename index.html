@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <section class="topbar">
+      <div id="nav-icon1">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </div>
+
+      <div class="right-btns">
+        <div class="call">
+          <p>Call Now <br>
+            <span class="ph">368-9562-245</span>
+          </p>
+        </div>
+        <div class="enquiry">
+          <button type="button" name="enquiry"></button>
+
+        </div>
+
+      </div>
+    </section>
+  </header>
+  <!-- Header Ends-->
+
+  <!-- Banner Section -->
+  <div class="banner">
+    <img class="banner-img" src="images\Layer 1.png" alt="" />
+    <div class="logo">
+      <img class="logo-img" src="images\Layer 4.png" alt="">
+      <div class="mid-part">
+        <p>COME HOME TO THE BEST</p>
+        <div class="family">
+          <p id="k"> 10000+ <span>Happy Families</span></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- About Section -->
+<div class="about">
+  <div class="text">
+
+  </div>
+  <div class="about-img">
+
+  </div>
+
+</div>
+
+</body>
+
+<script>
+  $(document).ready(function() {
+    $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function() {
+      $(this).toggleClass("open");
+    });
+  });
+</script>
+
+</html>
