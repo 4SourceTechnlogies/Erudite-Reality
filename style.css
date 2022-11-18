@@ -176,6 +176,7 @@
 .about {
   display: flex;
   flex-direction: row;
+  background-color: black;
 }
 
 .heading-text {
@@ -212,11 +213,20 @@
   font-size: 1rem;
 }
 
+.wborder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
 .rmb {
+  z-index: 9;
   display: inline-block;
   background-color: #d69a2e;
   height: 3.25rem;
   width: 14rem;
   border: white;
   color: white;
+  margin: 2rem;
 }
